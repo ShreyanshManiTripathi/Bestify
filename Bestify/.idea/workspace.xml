@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a1cb8b22-7ed4-473f-b039-5033a5d5a62c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Bestify-BE/app/controllers/user.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-BE/app/controllers/user.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-BE/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-BE/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/admin/create-quest/create-quest.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/admin/create-quest/create-quest.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/admin/create-quest/create-quest.component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/admin/create-quest/create-quest.component.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/admin/create-quiz/create-quiz.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/admin/create-quiz/create-quiz.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/admin/create-quiz/create-quiz.component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/admin/create-quiz/create-quiz.component.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/admin/dashboard/dashboard.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/admin/dashboard/dashboard.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/admin/dashboard/dashboard.component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/admin/dashboard/dashboard.component.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/admin/home/home.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/admin/home/home.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/admin/home/home.component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/admin/home/home.component.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/admin/leaderboard/leaderboard.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/admin/leaderboard/leaderboard.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/admin/leaderboard/leaderboard.component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/admin/leaderboard/leaderboard.component.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/admin/list-games/list-games.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/admin/list-games/list-games.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/admin/list-games/list-games.component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/admin/list-games/list-games.component.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/admin/list-quiz/list-quiz.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/admin/list-quiz/list-quiz.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/admin/list-quiz/list-quiz.component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/admin/list-quiz/list-quiz.component.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/admin/top-scores/top-scores.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/admin/top-scores/top-scores.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/admin/top-scores/top-scores.component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/admin/top-scores/top-scores.component.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/app.component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/app.component.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/auth/sign-in/sign-in.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/auth/sign-in/sign-in.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/auth/sign-in/sign-in.component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/auth/sign-in/sign-in.component.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/landing-page/landing-page.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/landing-page/landing-page.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/landing-page/landing-page.component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/landing-page/landing-page.component.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/user/dashboard/dashboard.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/user/dashboard/dashboard.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/user/dashboard/dashboard.component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/user/dashboard/dashboard.component.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/user/favorites/favorites.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/user/favorites/favorites.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/user/favorites/favorites.component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/user/favorites/favorites.component.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/user/games/games.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/user/games/games.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/user/games/games.component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/user/games/games.component.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/user/home/home.component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/user/home/home.component.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/user/quizsearch/quizsearch.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/user/quizsearch/quizsearch.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/user/quizsearch/quizsearch.component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/user/quizsearch/quizsearch.component.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/user/show-quiz/show-quiz.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/user/show-quiz/show-quiz.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/user/show-quiz/show-quiz.component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/user/show-quiz/show-quiz.component.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/user/show-result/show-result.component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/user/show-result/show-result.component.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/user/snake/snake.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/user/snake/snake.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/user/snake/snake.component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/user/snake/snake.component.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/user/tetris/tetris.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/user/tetris/tetris.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/user/tetris/tetris.component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/user/tetris/tetris.component.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/user/tic-tac-toe/tic-tac-toe.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/user/tic-tac-toe/tic-tac-toe.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/user/tic-tac-toe/tic-tac-toe.component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/user/tic-tac-toe/tic-tac-toe.component.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/user/view-pre-score/view-pre-score.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/user/view-pre-score/view-pre-score.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/app/user/view-pre-score/view-pre-score.component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/app/user/view-pre-score/view-pre-score.component.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bestify-FE/src/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Bestify-FE/src/styles.css.map" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="225KdsTk8DQvn6s6cF58YuObsQp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a1cb8b22-7ed4-473f-b039-5033a5d5a62c" name="Default Changelist" comment="" />
+      <created>1639122098491</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639122098491</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1639456532844">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1639456532844" />
+  </component>
+</project>

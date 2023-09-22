@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAA;EACX,UAAU,EAAE,IAAI;CACjB",
+    "sources": [
+        "../src/app/admin/top-scores/top-scores.component.scss"
+    ],
+    "names": [],
+    "file": "top-scores.component.css"
+}

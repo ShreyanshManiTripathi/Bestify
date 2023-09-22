@@ -1,0 +1,28 @@
+
+.questions{
+   max-width: 100%;
+   padding: 5px 20%;
+}
+.questions .questionBlock{
+    margin: 1rem 0;
+}
+.btn-secondary{
+    background-color: green;
+    // width: 100%;
+}
+
+.quizDetail{
+   
+    margin: 1rem 0;
+    
+    span:nth-child(2),span:nth-child(4),span:nth-child(6){
+        padding:0 10px;
+    }
+    div{
+        padding: 1rem 2rem;
+    }
+    .headColor{
+        border-radius: 25px;
+        background-color: #CFF4FC;
+    }
+}

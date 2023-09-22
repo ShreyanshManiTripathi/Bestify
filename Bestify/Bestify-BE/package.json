@@ -1,0 +1,28 @@
+{
+  "name": "bestify-be",
+  "version": "1.0.0",
+  "description": "Backend for Bestify your time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server"
+  },
+  "author": "FET Group 4",
+  "license": "ISC",
+  "dependencies": {
+    "angular-jwt": "^0.1.11",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "md5": "^2.3.0",
+    "mysql2": "^2.2.5",
+    "nodemailer": "^6.6.1",
+    "nodemon": "^2.0.7",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {
+    "crypto-js": "^4.0.0",
+    "cryptr": "^6.0.2"
+  }
+}

@@ -1,0 +1,27 @@
+<div class="lb-margTop">
+  <h2>Leaderboard</h2>
+  <!-- <nav>
+    <ul>
+      <li><a routerLink="list-quiz">list-quiz</a></li>
+      <li><a routerLink="list-games">list-games</a></li>
+    </ul>
+  </nav> -->
+
+  <ul class="nav justify-content-center">
+    <li class="nav-item">
+      <a class="nav-link color-Bold" aria-current="page"><b>Select Leaderboard : </b></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" aria-current="page" routerLinkActive="active" routerLink="list-quiz">Quiz Leaderboard</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLinkActive="active" routerLink="list-games" >Games Leaderboard</a>
+    </li>
+  </ul>
+
+  <div class="lb-margTop border-lb">
+    <router-outlet></router-outlet>
+  </div>
+
+</div>
+

@@ -1,0 +1,29 @@
+
+
+<div class="container px-5">
+    <button type="button" class="btn btn-secondary btn-md m-3 " (click)="getAllQuestion()">Start Quiz</button>
+    <h2 *ngIf="flag==true then ifBlock ">if block show</h2>
+   
+    <ng-template #ifBlock>
+    <div class="quizDetail">
+         <div *ngFor="let items of quiz" class=" headColor">
+              <span><b>Quiz Name :</b></span><span>{{items.quizName}}</span>
+              <span><b>Total Questions :</b></span><span>{{items.noOfQuestions}}</span>
+              <span><b>Time :</b></span><span>{{items.quizTimer}} Seconds</span>
+         </div>
+    </div>
+
+    <table *ngFor="let items of questions; let i=index" class="questions r">
+         <div class="questionBlock">
+              <tr><th class="">{{i+1}}. {{items.quesStmt}}</th></tr>
+              <tr><input name="{{items.quesId}}" id="{{items.quesId}}+A" type="radio"  (click)="radioChangeHandler(items.quesId,'A',i)"> {{items.optionA}}</tr>
+              <tr><td><input name="{{items.quesId}}" id="{{items.quesId}}+B" type="radio" (click)="radioChangeHandler(items.quesId,'B',i)"> {{items.optionB}}</td></tr>
+              <tr><td><input name="{{items.quesId}}" id="{{items.quesId}}+C" type="radio" (click)="radioChangeHandler(items.quesId,'C',i)"> {{items.optionC}}</td></tr>
+              <tr><td><input name="{{items.quesId}}" id="{{items.quesId}}+D" type="radio" (click)="radioChangeHandler(items.quesId,'D',i)"> {{items.optionD}}</td></tr>
+         </div>
+    </table>
+    <div class="">
+         <button type="button" class="btn btn-primary btn-md px-5" (click)="getAnswer()">Submit </button>
+    </div>
+     </ng-template>
+</div>

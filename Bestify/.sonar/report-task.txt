@@ -1,0 +1,5 @@
+projectKey=Group6-Bestify
+serverUrl=http://172.27.12.78
+dashboardUrl=http://172.27.12.78/dashboard/index/Group6-Bestify
+ceTaskId=AXpRJrPla_m12xx6Rv9i
+ceTaskUrl=http://172.27.12.78/api/ce/task?id=AXpRJrPla_m12xx6Rv9i

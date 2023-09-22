@@ -1,0 +1,50 @@
+<div class="fav-margtop">
+  <h2>    Add Quizzes to Favorites  </h2>
+  <div class="form-group fav-margtop">
+    <select class="form-control" [(ngModel)]="selectedQuiz" (change)="selectedQuizArray()">
+      <option style="display: none" selected disabled value="">
+        Select Quiz
+      </option>
+      <option *ngFor="let item of QuizList" [value]="item['quizId']">
+        {{ item["quizName"] }}
+      </option>
+    </select>
+  </div>
+
+</div>
+
+<div>
+  <button class="btn btn-primary fav-margtop" (click)="addQuizToFavorites()">Add to Favorite</button>
+</div>
+
+<!-- <div>
+  <button class="btn btn-primary" (click)="getFavorites()">Get Favorite Quizzes</button>
+</div> -->
+
+
+
+<div class="fav-margtop" *ngIf="favFlag">
+  <h3>Favorite Quizzes </h3>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Sr No</th>
+        <th scope="col">Quiz Name</th>
+        <th scope="col">Total Quiz Time</th>
+        <th scope="col">
+          Action
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let quiz of favQuizList;let i=index">
+        <td>{{i+1}}</td>
+        <td>{{ quiz["quizName"] }}</td>
+        <td>{{ quiz["quizTimer"] }}</td>
+        <td>
+          <button class="btn btn-warning" (click)="removeQuiz(quiz['quizId'])">Remove</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

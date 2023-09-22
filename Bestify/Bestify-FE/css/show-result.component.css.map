@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../src/app/user/show-result/show-result.component.scss"
+    ],
+    "names": [],
+    "file": "show-result.component.css"
+}

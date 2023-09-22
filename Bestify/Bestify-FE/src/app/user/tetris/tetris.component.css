@@ -1,0 +1,67 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 320px 200px;
+      grid-template-columns: 320px 200px;
+}
+
+.right-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 300px;
+}
+
+.game-board {
+  border: solid 2px;
+}
+
+.button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.button-container .play-button {
+  background-color: #4caf50;
+}
+
+.button-container .reset-button {
+  background-color: red;
+}
+
+.button-container .pause-button {
+  background-color: #4caf50;
+}
+
+.button-container .pause-button.button-disabled {
+  background-color: #cccccc;
+}
+
+.button-container .button {
+  font-size: 16px;
+  padding: 15px 30px;
+  cursor: pointer;
+  width: 140px;
+  border: 1px solid black;
+}
+/*# sourceMappingURL=tetris.component.css.map */

@@ -1,0 +1,66 @@
+<div class="topS-margtop">
+  <h2> Top Scorer of Quizzes </h2>
+  <div class="form-group topS-margtop">
+    <select class="form-control" [(ngModel)]="selectedCategoryId">
+      <option style="display: none;" selected disabled value="">Choose Category</option>
+      <option *ngFor="let item of CategoryList" [value]="item['categoryId']">{{item["categoryName"]}}</option>
+    </select>
+  </div>
+
+  <button (click)="topScorerQuizzes()" type="button" class="btn btn-info topS-margtop">
+    Quiz Top Scorers
+  </button>
+
+  <div class="topS-margtop" *ngIf="flag">
+
+    <table class="table ">
+      <thead>
+        <tr>
+          <th scope="col">Sr No</th>
+          <th scope="col">Quiz Name</th>
+          <th scope="col">User</th>
+          <th scope="col">Top Score</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let scorer of topScoresUserQuizList; let i=index">
+          <td>{{i+1}}</td>
+          <td>{{scorer["quizName"]}}</td>
+          <td>{{scorer["username"]}}</td>
+          <td>{{scorer["userScore"]}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="topS-margtop">
+    <h2> Top Scorer of Games </h2>
+
+    <button (click)="topScorerGames()" type="button" class="btn btn-info topS-margtop">
+      Game Top Scorers
+    </button>
+  </div>
+
+  <div class="topS-margtop" *ngIf="gameFlag">
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Sr No</th>
+          <th scope="col">Game Name</th>
+          <th scope="col">User</th>
+          <th scope="col">Top Score</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let scorer of topScoresUserGameList ; let i=index">
+          <td>{{i+1}}</td>
+          <td>{{scorer["gameName"]}}</td>
+          <td>{{scorer["username"]}}</td>
+          <td>{{scorer["userScore"]}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>

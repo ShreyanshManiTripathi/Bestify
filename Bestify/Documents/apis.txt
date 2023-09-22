@@ -1,0 +1,23 @@
+Admin: 	
+	GetCategory 
+	GetQuizByCtegoryId									GetQuestionsByQuizId
+	CreateQuiz
+	CreateQuestions
+	GetQuizByTransaction			
+	GetTopScorer
+
+
+User:       /user/
+	GetUserbyId   user/:id  
+	GetCatagories /user/categories
+	GetQuizByCategoryId
+	GetQuestionsByQuizId
+	QuizTransaction(create/update)
+	GameTransaction(create/update)
+	GetFavouritesByUserId
+	GetUserQuiztransactionsByQuizId
+	SendEmail
+	
+LogIn/Register:
+	GetAllUser
+	RegisterUser

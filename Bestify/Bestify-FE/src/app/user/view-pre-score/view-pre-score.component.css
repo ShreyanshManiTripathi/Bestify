@@ -1,0 +1,25 @@
+.lb-margTop {
+  margin-top: 1rem;
+}
+
+.border-lb {
+  padding: 1rem;
+}
+
+.color-Bold {
+  color: black;
+}
+
+viewScore {
+  font-weight: bold;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1rem;
+}
+
+viewScore span {
+  margin-left: 1rem;
+}
+/*# sourceMappingURL=view-pre-score.component.css.map */

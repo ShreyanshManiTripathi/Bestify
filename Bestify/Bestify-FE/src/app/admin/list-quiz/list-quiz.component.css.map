@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAA;EACT,UAAU,EAAE,IAAI;CACjB",
+    "sources": [
+        "list-quiz.component.scss"
+    ],
+    "names": [],
+    "file": "list-quiz.component.css"
+}

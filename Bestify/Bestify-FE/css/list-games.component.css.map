@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAA;EACT,UAAU,EAAE,IAAI;CACjB",
+    "sources": [
+        "../src/app/admin/list-games/list-games.component.scss"
+    ],
+    "names": [],
+    "file": "list-games.component.css"
+}

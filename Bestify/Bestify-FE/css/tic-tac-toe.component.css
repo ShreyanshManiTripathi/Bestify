@@ -1,0 +1,41 @@
+.main-container .gameboard {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-container .gameboard .player-one p {
+  color: #53a353;
+}
+
+.main-container .gameboard .player-two p {
+  color: #e66d6d;
+}
+
+.main-container .gameboard .gamefield {
+  max-width: 300px;
+}
+
+.main-container .gameboard .gamefield .subfield {
+  cursor: pointer;
+  height: 100px;
+  width: 100px;
+  border: 1px solidrgb(19, 18, 18);
+}
+
+.main-container .gameboard .gamefield .subfield.player-one {
+  background: #53a353;
+}
+
+.main-container .gameboard .gamefield .subfield.player-two {
+  background: #e66d6d;
+}
+/*# sourceMappingURL=tic-tac-toe.component.css.map */

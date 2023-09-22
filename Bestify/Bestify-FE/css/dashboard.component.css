@@ -1,0 +1,33 @@
+.dash-wh {
+  width: 100%;
+  margin: 1rem;
+}
+
+.dash-wh::-webkit-scrollbar {
+  display: none;
+}
+
+.cont-wh {
+  height: 43vw;
+}
+
+.active {
+  background-color: #e3f2fd;
+  color: black;
+  border: 1px solid grey;
+}
+
+.box-shad {
+  -webkit-box-shadow: 1px 10px 10px grey;
+          box-shadow: 1px 10px 10px grey;
+}
+
+.box-shad1 {
+  -webkit-box-shadow: 1px 5px 10px grey;
+          box-shadow: 1px 5px 10px grey;
+}
+
+.dash-margtop {
+  margin-top: 2rem;
+}
+/*# sourceMappingURL=dashboard.component.css.map */

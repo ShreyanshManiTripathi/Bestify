@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAC;EACV,UAAU,EAAE,IAAI;CACjB;;AAED,AAAA,UAAU,CAAC;EAET,OAAO,EAAE,IAAI;CACd;;AAED,AAAA,WAAW,CAAC;EACV,KAAK,EAAE,KAAK;CACb;;AAED,AAAA,SAAS,CAAC;EACR,WAAW,EAAE,IAAI;EACjB,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,MAAM;EACnB,SAAS,EAAE,IAAI;CAIhB;;AARD,AAKE,SALO,CAKP,IAAI,CAAC;EACH,WAAW,EAAE,IAAI;CAClB",
+    "sources": [
+        "view-pre-score.component.scss"
+    ],
+    "names": [],
+    "file": "view-pre-score.component.css"
+}

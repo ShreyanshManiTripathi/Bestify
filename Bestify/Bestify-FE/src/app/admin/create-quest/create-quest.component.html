@@ -1,0 +1,95 @@
+
+<div class="quiz-margtop">
+  <h2>Create Questions:</h2>
+  <form #questForm="ngForm" class="container-fluid mt-3" (ngSubmit)="createQuestions()">
+    <div class="row justify-content-center">
+      <div class="col-md-12">
+
+        <section class="container border mb-4 p-3" *ngFor="let quest of question; let i = index;">
+          <div class="row">
+            <div class="col-8">
+              <h4>Question {{i + 1}}</h4>
+            </div>
+            <div class="col-4 text-right">
+              <button type="button" class="btn btn-danger btn-sm float-end" (click)="removeQuestion(i)">Remove</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="form-group">
+                <label>Question Statement</label>
+                <input type="text" class="form-control" [(ngModel)]="quest.quesStmt" name="questStmt_{{i+1}}"
+                  placeholder="Enter Question" />
+              </div>
+            </div>
+
+
+          </div>
+
+          <div class="row">
+            <div class="col-6">
+              <div class="form-group">
+                <label>Option A</label>
+                <input type="text" class="form-control" [(ngModel)]="quest.optionA" name="optionA_{{i+1}}"
+                  placeholder="Enter Option A" />
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="form-group">
+                <label>Option B</label>
+                <input type="text" class="form-control" [(ngModel)]="quest.optionB" name="optionB_{{i+1}}"
+                  placeholder="Enter Option B" />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <div class="form-group">
+                <label>Option C</label>
+                <input type="text" class="form-control" [(ngModel)]="quest.optionC" name="optionC_{{i+1}}"
+                  placeholder="Enter Option C" />
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="form-group">
+                <label>Option D</label>
+                <input type="text" class="form-control" [(ngModel)]="quest.optionD" name="optionD_{{i+1}}"
+                  placeholder=" Enter Option D" />
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-6">
+              <div class="form-group">
+                <label>Correct Answer</label>
+                <select class="form-control" name="correctAnswer_{{i+1}}" [(ngModel)]="quest.correctAnswer">
+                  <option *ngFor="let item of OptionArray" [value]="item['key']">{{item['value']}}</option>
+                </select>
+
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="form-group">
+                <input type="hidden" class="form-control" [(ngModel)]="quest.quizId" name="quizId{{i+1}}"
+                  placeholder="quizId" />
+              </div>
+            </div>
+
+          </div>
+
+
+        </section>
+
+        <div class="text-right">
+          <input type="submit" *ngIf="question.length == noOfQuestion" class="btn btn-success" value="Add Questions to Quiz" />
+        </div>
+        <button type="button" class="btn btn-primary mb-2" (click)="addQuestion()"
+          *ngIf="noOfQuestion > question.length">Add Another Question</button>
+
+      </div>
+    </div>
+
+  </form>
+</div>
+

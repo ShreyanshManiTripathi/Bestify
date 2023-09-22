@@ -1,0 +1,11 @@
+.row .card {
+  margin-top: 10rem;
+  margin-left: 5rem;
+  margin-bottom: 10rem;
+  margin-right: 5rem;
+}
+
+.row .card .card-img-top {
+  height: 20rem;
+}
+/*# sourceMappingURL=games.component.css.map */

@@ -1,0 +1,18 @@
+.lb-margTop {
+  margin-top: 1rem;
+}
+
+.active {
+  background-color: #e3f2fd;
+  color: black;
+  border: 1px solid grey;
+}
+
+.border-lb {
+  padding: 1rem;
+}
+
+.color-Bold {
+  color: black;
+}
+/*# sourceMappingURL=leaderboard.component.css.map */

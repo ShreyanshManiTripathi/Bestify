@@ -1,0 +1,54 @@
+User_table:
+	user_id(PK);
+	user_name string;
+	user_email string;
+	user_password string; 
+	isAdmin(BOOLEAN);
+
+userQuizTransaction:
+	userQuiz_id(PK);
+	user_id(FK);
+	quiz_id(FK);
+	user_score int;
+	no_of_ques_attempted int; 
+	time_left time;
+	isCompleted(BOOLEAN);
+	is_played_on datetime;	
+	
+Category:
+	cat_id(PK);
+	cat_name string;
+
+Quizes:
+	quize_id(PK);
+	quize_name string;
+	quize_timer datetime;
+	quize_score int;	
+	cat_id(FK);
+
+Questions:
+	quize_id(FK)
+	ques_id(PK);
+	ques_stsmnt string;
+	correct_ans string;
+	optionA string;
+	optionB string;
+	optionC string;
+	optionD string;
+
+gameZone:
+	game_id(PK);
+	time_duration datetime;
+	gameName string;	
+
+userGameTransaction:
+	user_id(FK);
+	game_id(FK);
+	status boolean;
+	score int;
+	is_played_on datetime;
+	
+userFavtQuize:
+	user_id(FK);
+	quize_id(FK);
+	isFavt(BOOLEAN);

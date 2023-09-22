@@ -1,0 +1,62 @@
+<div class="lb-margTop">
+  <h2>All Quiz/Games Score</h2>
+  <div class="d-flex flex-row justify-content-between lb-margTop">
+    <div class="viewScore">
+      <span>Your Score: {{userScore}} </span>
+    </div>
+    <button (click)="sendMail()" class="btn btn-primary">Send Score To Mail</button>
+  </div>
+
+  <div class="lb-margTop">
+    <h4 class="d-flex justify-content-center">Previous Scores </h4>
+  <ul class="nav nav-tabs justify-content-center lb-margTop">
+
+    <li><button class="nav-link" data-target="#quiz" data-toggle="tab" (click)="showQuizScores()">Quiz Scores</button>
+    </li>
+    <li><button class="nav-link" data-target="#game" data-toggle="tab" (click)="showGameScore()">Game Scores</button>
+    </li>
+  </ul>
+  <div class="lb-margTop ">
+    <div class="tab-content">
+      <div id="quiz" class="tab-pane">
+        <table class="table">
+          <thead class="text-center">
+            <tr>
+              <th scope="col">UserName</th>
+              <th scope="col">QuizName</th>
+              <th scope="col">UserScore</th>
+            </tr>
+          </thead>
+          <tbody class="text-center">
+            <tr *ngFor="let detail of quizDetails">
+              <td>{{detail['user.username']}}</td>
+              <td>{{detail['quiz.quizName']}}</td>
+              <td>{{detail.userScore}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div id="game" class="tab-pane">
+        <table class="table">
+          <thead class="text-center">
+            <tr>
+              <th scope="col">UserName</th>
+              <th scope="col">GameName</th>
+              <th scope="col">UserScore</th>
+            </tr>
+          </thead>
+          <tbody class="text-center">
+            <tr *ngFor="let detail of gameDetails">
+              <td>{{detail['user.username']}}</td>
+              <td>{{detail['game.gameName']}}</td>
+              <td>{{detail.userScore}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  </div>

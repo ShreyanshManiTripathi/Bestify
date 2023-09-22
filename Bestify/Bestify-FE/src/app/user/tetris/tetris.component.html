@@ -1,0 +1,48 @@
+<a href="/user/" class="btn btn-light ml-5">go back to dashboard</a>
+<div class="grid">
+    <div class="row col-12">
+     <div class="card col-6" style="height:40rem; width: 30rem;">
+    <canvas #board class="game-board"></canvas>
+    </div>
+
+    <div class="card col-6"  >
+        <div class="don">
+            <h1 class="din">TETRIS</h1>
+            <p class="din">Score: {{ points }}</p>
+            <p class="din">Lines: {{ lines }}</p>
+            <p class="din">Level: {{ level }}</p>
+            <p class="din">High Score:</p>
+            <p  class="din">{{ highScore }}</p>
+            <p class="din">{{ highScore }}</p>
+            <p class="din">Next Block:</p>
+            <canvas #next class="next"></canvas>
+        </div>
+        
+        <div class="button-container">
+            <button
+           
+                (click)="play()"
+                class="play-button btn-light ml-5"
+                *ngIf="!gameStarted"
+            >
+                Play
+            </button>
+            <button
+                (click)="gameOver()"
+                class="reset-button btn-light ml-5"
+                *ngIf="gameStarted"
+            >
+                Reset
+            </button>
+            <button
+                (click)="pause()"
+                class="pause-button btn-light ml-5"
+                [class.button-disabled]="!gameStarted"
+            >
+                Pause
+            </button>
+         </div>
+     </div>
+     </div>
+</div>
+

@@ -1,0 +1,21 @@
+<app-quizsearch></app-quizsearch>
+
+
+
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Select Quiz </label>
+    <select class="form-control"[(ngModel)]="selectedCategory" (change)="selectedCategoryArray()">
+      <option style="display: none;" selected disabled value="">Select Category</option>
+    <option *ngFor="let item of CategoryList" [value]="item['categoryId']">{{item["categoryName"]}}</option>
+    </select>
+  </div>
+
+<div *ngIf="quizData.length > 0 ;else elseBlock">
+  <div class="card mt-2 justify-content-center shadow-sm p-3 mb-5 bg-white rounded" *ngFor="let item of quizData">
+    <h5>{{item["quizName"]}}</h5>
+    Timer: {{item["quizTimer"]}} &nbsp; Quiz Score : {{item["quizScore"]}} &nbsp; No of Questions :
+    {{item["noOfQuestions"]}}
+    <button (click)="playQuiz(item['quizId'])" class="btn btn-primary rounded m-2 w-25"  >Play Quiz</button>
+  </div>
+</div>
+<ng-template #elseBlock>No quiz in this category</ng-template>

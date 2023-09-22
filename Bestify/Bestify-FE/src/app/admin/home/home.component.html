@@ -1,0 +1,45 @@
+<div class="home-margtop">
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">
+      <h2>Select Category</h2>
+    </label>
+    <select class="form-control home-margtop" [(ngModel)]="selectedCategory" (change)="selectedCategoryArray()">
+      <option style="display: none;" selected disabled value="">Choose Category</option>
+      <option *ngFor="let item of CategoryList" [value]="item['categoryId']">{{item["categoryName"]}}</option>
+    </select>
+  </div>
+
+  <div class="home-margtop">
+    <div *ngIf="quizData.length > 0 ;else elseBlock">
+      <div *ngIf="flag">
+        <h5>List Of Quizzes :</h5>
+        <div class="card card-Border mt-2" *ngFor="let item of quizData">
+          <div class="card-body pointer" (click)="getQuesByQuizId(item['quizId'])">
+            <h5>{{item["quizName"]}}</h5>
+            <p> Timer: {{item["quizTimer"]}} &nbsp; Quiz Score : {{item["quizScore"]}} &nbsp; No of Questions
+              :{{item["noOfQuestions"]}}</p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="home-margtop" *ngIf="questionArray.length > 0">
+        <button class="btn btn-info" (click)="GetQuizList()">Quiz List</button>
+        <br><br>
+        <h5>List Of Questions of {{SelectedquizName}} :</h5>
+        <div class="questionBorder card-Border" *ngFor="let quest of questionArray;let i=index">
+          <h5>{{i+1}}) {{quest["quesStmt"]}}</h5>
+          <p><b>Option A:</b> {{quest["optionA"]}} </p>
+          <p><b>Option B:</b> {{quest["optionB"]}} </p>
+          <p><b>Option C:</b> {{quest["optionC"]}} </p>
+          <p><b>Option D:</b> {{quest["optionD"]}} </p>
+          <p><b>Correct Answer:</b> {{quest["correctAnswer"]}} </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <ng-template #elseBlock>No quiz in this category!</ng-template>
+
+</div>

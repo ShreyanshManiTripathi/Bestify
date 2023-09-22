@@ -1,0 +1,33 @@
+<div class="form-group">
+  <!-- <label for="exampleFormControlSelect1">Select </label> -->
+  <select class="form-control" [(ngModel)]="selectedQuiz" (change)="selectedQuizArray()">
+    <option style="display: none" selected disabled value="">
+      Select Quiz
+    </option>
+    <option *ngFor="let item of QuizList" [value]="item['quizId']">
+      {{ item["quizName"] }}
+    </option>
+  </select>
+</div>
+
+<div class="lb-margTop" *ngIf="quizFlag">
+  <h5>{{ quizName }} Played By :</h5>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Sr No</th>
+        <th scope="col">Username</th>
+        <th scope="col">Score</th>
+        <th scope="col">Played On</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of userQuizList;let i=index">
+        <td>{{i+1}}</td>
+        <td>{{ user["username"] }}</td>
+        <td>{{ user["userScore"] }}</td>
+        <td>{{ user["playedOn"] }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

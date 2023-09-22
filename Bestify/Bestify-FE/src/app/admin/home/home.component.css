@@ -1,0 +1,14 @@
+.home-margtop {
+  margin-top: 1rem;
+}
+
+.questionBorder {
+  padding: 1rem;
+  border: grey 1px solid;
+}
+
+.card-Border {
+  -webkit-box-shadow: 5px 5px 10px grey;
+          box-shadow: 5px 5px 10px grey;
+}
+/*# sourceMappingURL=home.component.css.map */

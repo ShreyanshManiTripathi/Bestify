@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAA;EACX,UAAU,EAAE,IAAI;CACjB;;AAGD,AAAA,GAAG,CAAC,WAAW,CAAA;EACb,UAAU,EAAE,MAAM;CACnB",
+    "sources": [
+        "create-quiz.component.scss"
+    ],
+    "names": [],
+    "file": "create-quiz.component.css"
+}

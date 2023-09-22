@@ -1,0 +1,37 @@
+<div class="form-group">
+    <!-- <label for="exampleFormControlSelect1">Select </label> -->
+    <select
+      class="form-control"
+      [(ngModel)]="selectedGame"
+      (change)="selectedGameArray()"
+    >
+      <option style="display: none" selected disabled value="">
+        Select Game
+      </option>
+      <option *ngFor="let item of GameList" [value]="item['gameId']">
+        {{ item["gameName"] }}
+      </option>
+    </select>
+  </div>
+
+<div class="lb-margTop" *ngIf="gameFlag">
+    <h5>{{ gameName }} Played By :</h5>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Sr No</th>
+          <th scope="col">Username</th>
+          <th scope="col">Score</th>
+          <th scope="col">Played On</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of userGameList; let i=index">
+          <td>{{i+1}}</td>
+          <td>{{ user["username"] }}</td>
+          <td>{{ user["userScore"] }}</td>
+          <td>{{ user["playedOn"] }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
